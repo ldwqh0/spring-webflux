@@ -38,7 +38,7 @@ public class UserServiceImpl implements UserService {
         User user_ = userRepository.save(user);
         try {
             Thread.sleep(10000);
-          log.info(""+Thread.currentThread());
+            log.info("" + Thread.currentThread());
         } catch (InterruptedException e) {
             // TODO Auto-generated catch block
             e.printStackTrace();

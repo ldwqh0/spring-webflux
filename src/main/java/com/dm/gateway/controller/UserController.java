@@ -25,7 +25,6 @@ public class UserController {
     public String save() {
         User user = new User();
         user.setName("李东");
-        ;
         return user.toString();
     }
 
